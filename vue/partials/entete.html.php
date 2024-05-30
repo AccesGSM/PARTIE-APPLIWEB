@@ -16,8 +16,10 @@
 <nav>
     <ul id="menuGeneral">
         <li><a href="./?action=accueil"><i class="fa fa-home"></i> Accueil</a></li>
-        <li><a href="./?action=reservation"><i class="fa fa-th-list"></i> CRUD</a></li>
-        <li><a href="./?action=profil"><i class="fa fa-user"></i> <?= $_SESSION["nom"]?></a>
+        <li><a href="./?action=reservation"><i class="fa fa-th-list"></i> Réservations</a></li>
+        <li><a href="./?action=usagers"><i class="fa fa-th-list"></i> Usagers</a></li>
+        <li><a href="./?action=acces"><i class="fa fa-th-list"></i> Acces</a></li>
+        <li><a href="./?action=profil"><i class="fa fa-user"></i> <?= $_SESSION["mailU"]?></a>
             <ul class="sousMenu">
                 <li><a href="./?action=profil"><i class="fa fa-product-hunt"></i></i> Mon profil</a></li>
                 <li><a href="./?action=majProfil"><i class="fa fa-pencil-square-o"></i> Mise à jour profil</a></li>
