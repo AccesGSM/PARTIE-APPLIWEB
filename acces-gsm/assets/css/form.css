@@ -1,0 +1,17 @@
+input[type=text],input[type=email],input[type=submit],input[type=password],input[type=checkbox],input[type=int],
+input[type=number],input[type=date],input[type=time],select,option{
+    padding : 5px;
+    margin : 5px;
+
+}
+
+label{
+    padding-right : 25px;
+
+}
+
+input[type=text],input[type=email],input[type=submit],input[type=password],input[type=int],input[type=number],
+input[type=date],input[type=time]{
+    width : 400px;
+}
+
